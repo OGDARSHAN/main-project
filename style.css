@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding:  0;
+}
+
+nav ul li {
+    margin: 0 10px;
+   
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(189, 189, 189);
+}
+section {
+    padding: 20px;
+}
+
+#home h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.types {
+    margin-bottom: 40px;
+}
+
+.types h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.type-item {
+    display: inline-block;
+    width: 23%;
+    margin: 1%;
+    text-align: center;
+}
+
+.type-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.type-item h3 {
+    margin-top: 10px;
+}
+
+#services, #about, #contact, #login {
+    background-color: #f4f4f4;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #8b4513;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #3b3b3b;
+}
+footer {
+    background-color: #343433;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.fest h3{
+    display: flex;
+    justify-content: center;
+}
+img:hover{
+    transform: scale(1.2);
+}
